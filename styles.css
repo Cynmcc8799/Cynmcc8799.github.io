@@ -1,0 +1,53 @@
+
+body {
+    background-color: linear-gradient (to right, #000000, #008080);
+    font-family: "Courier New", Courier, monospace; 
+}
+
+header {
+    text-align: center;
+    font-size: 2em; 
+    font-weight: bold;
+    padding: 20px; 
+    background-color:  linear-gradient (to right, #000000, #008080);
+    color: white;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: linear-gradient (to right, #000000, #008080);
+    color: white; 
+}
+
+section {
+    padding: 20px; 
+    margin: 20px; 
+    border: 1px solid #ccc; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: linear-gradient (to right, #000000, #008080);
+}
+
+
+footer {
+    font-size: 0.8em; 
+    text-align: center; 
+    background-color: linear-gradient (to right, #000000, #008080);
+    color: white; 
+    padding: 10px;
+}
