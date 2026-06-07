@@ -16,16 +16,17 @@ header {
 nav ul {
     list-style-type: none; 
     padding: 0; 
-    display: flex; 
-    justify-content: center;
+
 }
 
-nav ul li {
-    margin: 0 15px; 
+nav li {
+    display: inline;
+    margin-right: 15px; 
 }
 
 nav a {
     text-decoration: none;
+    padding: 8px 12px;
     color: white; 
     transition: background-color 0.3s; 
 }
@@ -35,14 +36,58 @@ nav a:hover {
     color: white; 
 }
 
-section {
+main section {
     padding: 20px; 
-    margin: 20px; 
-    border: 1px solid #ccc; 
+    margin-bottom: 20px; 
+    border: 1px solid transparent; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
     background-color: linear-gradient (to right, #000000, #008080);
+    transition: transform 0.3s ease-in-out;
+}
+main section:hover {
+    transform: scale(1.02);
+}
+/* --- Project Section --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
 }
 
+caption {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #b3b3b3;
+    padding: 12px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #d9d9d9;
+    color: #111;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #eaeaea;
+}
+
+/* image placeholders inside cells */
+table img {
+    max-width: 100px;
+    display: block;
+    height: auto;
+}
+
+/* Target elements  */
+.colored-column {
+    background-color: #f7f9fc;
+}
 
 footer {
     font-size: 0.8em; 
