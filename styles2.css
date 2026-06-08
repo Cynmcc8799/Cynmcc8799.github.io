@@ -42,3 +42,38 @@ nav a {
 nav a:hover {
     background-color: #555555;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+
+.gray-column {
+    background-color: #f9f9f9;
+}
+
+
+thead tr {
+    background-color: #444444;
+}
+
+thead th {
+    color: #ffffff;
+}
+
+tfoot tr {
+    font-style: italic;
+}
+
+tfoot td {
+    text-align: center;
+    border-top: 2px solid #cccccc; 
+}
