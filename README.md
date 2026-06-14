@@ -22,4 +22,4 @@ Feel free to fork the repository and submit a pull request if you'd like to cont
 This project is licensed under the MIT License.
 
 ## Contact Information
-You can reach me at  or connect with me on
+You can reach me at reach me at:cynmcc8799@students.ecpi.edu
