@@ -9,7 +9,7 @@ This is my personal website where I showcase my portfolio, blog about web develo
 - JavaScript
 
 ## Installation Instructions
-1. Clone the repository: 
+1. Clone the repository: `https://github.com/Cynmcc8799/Cynmcc8799.github.io.git`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
@@ -22,4 +22,4 @@ Feel free to fork the repository and submit a pull request if you'd like to cont
 This project is licensed under the MIT License.
 
 ## Contact Information
-You can reach me at [your-email@example.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+You can reach me at  or connect with me on
