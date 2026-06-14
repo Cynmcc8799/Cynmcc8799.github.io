@@ -20,6 +20,7 @@ Feel free to fork the repository and submit a pull request if you'd like to cont
 
 ## License
 This project is licensed under the MIT License.
+copy; 2026 Cynthia Mccutchen. All rights reserved.
 
 ## Contact Information
 You can reach me at reach me at:cynmcc8799@students.ecpi.edu
